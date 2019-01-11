@@ -4,17 +4,17 @@
 <?php include 'conf/head.php' ?>
 
 <body <?php body_class(); ?>>
-  <?php include 'views/nav.php' ?>
+  <?php include 'nav.php' ?>
 
-  <?php include 'views/header.php' ?>
+  <?php get_header() ?>
 
-  <?php include 'views/book.php' ?>
+  <?php include 'book.php' ?>
 
-  <?php include 'views/about.php' ?>
+  <?php include 'about.php' ?>
 
-  <?php include 'views/contact.php' ?>
+  <?php include 'contact.php' ?>
 
-  <?php include 'views/footer.php' ?>
+  <?php get_footer() ?>
 
   <?php include 'conf/scripts.php' ?>
 </body>
