@@ -23,6 +23,19 @@
                 ),
                 'public'            => true,
                 'has_archive'       => true,
+                'menu_icon'         => 'dashicons-admin-users',
+                'supports'          => array('title', 'thumbnail', 'page-attributes'),
+            )
+        );
+
+        //Livro
+        register_post_type('livro',
+            array(
+                'labels'            => array(
+                    'name'          => __('Livro')
+                ),
+                'public'            => true,
+                'has_archive'       => true,
                 'menu_icon'         => 'dashicons-book',
                 'supports'          => array('title', 'thumbnail', 'page-attributes'),
             )

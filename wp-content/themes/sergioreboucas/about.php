@@ -5,7 +5,7 @@
                 <div class="col-md-6 col-sm-12 text">
                     <h1 class="about-title"><?php the_title(); ?></h1>
                     <p><?php the_field('descricao') ?></p>
-                    <p><a href="#" class="main-link">LEIA MEU LIVRO</a></p>
+                    <p><a href="<?php the_field('link') ?>" class="main-link" target="_blank"><?php the_field('label') ?></a></p>
                 </div>
                 <div class="col-md-6 col-sm-12 profile-box">
                     <img src="<?php the_field('foto') ?>" alt="" class="profile">
