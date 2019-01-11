@@ -1,0 +1,28 @@
+@import "_variables";
+
+//views
+@import "views/_header";
+@import "views/_nav";
+@import "views/_book";
+@import "views/_about";
+@import "views/_contact";
+@import "views/_footer";
+
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+  width: 3px;
+  background: #F4F4F4;
+  transition: width 0.3s ease-in-out;
+  &:hover {
+    width: 5px;
+  }
+}
+::-webkit-scrollbar-thumb {
+  background: $thumb;
+}

@@ -1,0 +1,106 @@
+.cabecalho {
+    height: auto;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-image: url("../img/FotoBG1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    .logo-img {
+        position: relative;
+        top: 10vh;
+        left: 5vw;
+        z-index: 10;
+    }
+    
+    .links {
+        position: relative;
+        top: 8vh;
+        left: 5vw;
+        .main-link {
+            text-decoration: none;
+            border: 1px solid $gold;
+            border-radius: 20px;
+            padding: 8px 15px;
+            margin-right: 1%;
+            color: $glacial;
+            font-family: $darwin;
+            font-size: 15px;
+            font-weight: lighter;
+            transition: background-color 0.3s ease-in-out;
+            &:hover {
+                background-color: $gold;
+            }
+        }
+    }
+    
+    .sociais {
+        float: right;
+        ul {
+            li {
+                float: left;
+                list-style: none;
+                color: $glacial;
+                position: relative;
+                top: 4vh;
+                right: 2vw;
+                margin: 0 10px 0 0;
+                .icon {
+                    text-decoration: none;
+                }
+                .yb {
+                    color: red;
+                }
+                .fb {
+                    color: #3e5b98;
+                }
+                .ig {
+                    color: #EC9313;
+                }
+            }
+        }
+    }
+}
+
+.pic1 {
+    width: 100vw;
+    z-index: 2;
+    margin-top: -26vh;
+    .pic-header {
+        display: block;
+        overflow-x: hidden;
+        position: relative;
+        left: 8%;
+        
+    }
+}
+
+.about {
+    position: relative;
+    top: 35vh;
+    left: 5vw;
+    width: 99%;
+    z-index: 3;
+    p {
+        color: $glacial;
+        font-family: $darwin;
+        padding-right: 10%;
+        a {
+            text-decoration: none;
+            border: 1px solid $gold;
+            border-radius: 20px;
+            padding: 8px 15px;
+            margin-right: 1%;
+            color: $glacial;
+            font-family: $darwin;
+            font-size: 15px;
+            font-weight: lighter;
+            transition: background-color 0.3s ease-in-out;
+            &:hover {
+                background-color: $gold;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+#about {
+    width: 100vw;
+    height: auto;
+    padding: 2% 2% 0;
+    background-color: $gold;
+    .text {
+        padding: 8% 2% 0 10%;
+        h1 {
+            font-family: $bebas;
+            font-size: 60px;
+            color: $gray;
+        }
+        p {
+            line-height: 1.2;
+            color: $glacial;
+            font-family: $alt;
+        }
+        .main-link {
+            text-decoration: none;
+            border: 1px solid $gray;
+            border-radius: 20px;
+            padding: 8px 15px;
+            color: $glacial;
+            font-family: $darwin;
+            font-size: 15px;
+            font-weight: lighter;
+            margin: 2% 0;
+            transition: background-color 0.3s ease-in-out;
+            &:hover {
+                background-color: $gray;
+            }
+        }
+    }
+    .profile-box {
+        .profile {
+            width: 50vw;
+            position: relative;
+            right: 10%;
+        }
+    }
+}

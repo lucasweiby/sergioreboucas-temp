@@ -1,0 +1,46 @@
+#book {
+    width: 100vw;
+    height: auto;
+    padding: 4vh 6vw;
+    background-color: $gray;
+    .presentation {
+        padding: 2% 0 2% 2%;
+        font-family: $bebas;
+        color: $gold;
+        font-size: 40px;
+        line-height: 1.2;
+        .legend {
+            color: $glacial;
+            font-family: $darwin;
+            font-size: 15px;
+            padding: 0 20% 0 0; 
+        }
+    }
+    .livro {
+        img {
+            margin-left: -10%;
+        }
+    }
+    .sinopse {
+        padding: 4% 0 2% 2%;
+        font-family: $alt;
+        color: $glacial;
+        line-height: 1.2;
+        .main-link {
+            text-decoration: none;
+            border: 1px solid $gold;
+            border-radius: 20px;
+            padding: 8px 15px;
+            margin-right: 1%;
+            color: $glacial;
+            font-family: $darwin;
+            font-size: 15px;
+            font-weight: lighter;
+            margin: 2% 0;
+            transition: background-color 0.3s ease-in-out;
+            &:hover {
+                background-color: $gold;
+            }
+        }
+    }
+}

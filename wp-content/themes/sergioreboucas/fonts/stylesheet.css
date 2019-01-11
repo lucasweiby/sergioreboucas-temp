@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Darwin';
+    src: url('Darwin.woff2') format('woff2'),
+        url('Darwin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Darwin';
+    src: url('Darwin-Bold.woff2') format('woff2'),
+        url('Darwin-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('NexaBold.woff2') format('woff2'),
+        url('NexaBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DarwinAlt';
+    src: url('DarwinAlt.woff2') format('woff2'),
+        url('DarwinAlt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeueRegular.woff2') format('woff2'),
+        url('BebasNeueRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

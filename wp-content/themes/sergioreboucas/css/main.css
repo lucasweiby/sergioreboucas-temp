@@ -1,0 +1,308 @@
+@import url(../fonts/stylesheet.css);
+.cabecalho {
+  height: auto;
+  width: 100vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-image: url("../img/FotoBG1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1; }
+  .cabecalho .logo-img {
+    position: relative;
+    top: 10vh;
+    left: 5vw;
+    z-index: 10; }
+  .cabecalho .links {
+    position: relative;
+    top: 8vh;
+    left: 5vw; }
+    .cabecalho .links .main-link {
+      text-decoration: none;
+      border: 1px solid #A57B48;
+      border-radius: 20px;
+      padding: 8px 15px;
+      margin-right: 1%;
+      color: #FFFEFC;
+      font-family: "Darwin";
+      font-size: 15px;
+      font-weight: lighter;
+      transition: background-color 0.3s ease-in-out; }
+      .cabecalho .links .main-link:hover {
+        background-color: #A57B48; }
+  .cabecalho .sociais {
+    float: right; }
+    .cabecalho .sociais ul li {
+      float: left;
+      list-style: none;
+      color: #FFFEFC;
+      position: relative;
+      top: 4vh;
+      right: 2vw;
+      margin: 0 10px 0 0; }
+      .cabecalho .sociais ul li .icon {
+        text-decoration: none; }
+      .cabecalho .sociais ul li .yb {
+        color: red; }
+      .cabecalho .sociais ul li .fb {
+        color: #3e5b98; }
+      .cabecalho .sociais ul li .ig {
+        color: #EC9313; }
+
+.pic1 {
+  width: 100vw;
+  z-index: 2;
+  margin-top: -26vh; }
+  .pic1 .pic-header {
+    display: block;
+    overflow-x: hidden;
+    position: relative;
+    left: 8%; }
+
+.about {
+  position: relative;
+  top: 35vh;
+  left: 5vw;
+  width: 99%;
+  z-index: 3; }
+  .about p {
+    color: #FFFEFC;
+    font-family: "Darwin";
+    padding-right: 10%; }
+    .about p a {
+      text-decoration: none;
+      border: 1px solid #A57B48;
+      border-radius: 20px;
+      padding: 8px 15px;
+      margin-right: 1%;
+      color: #FFFEFC;
+      font-family: "Darwin";
+      font-size: 15px;
+      font-weight: lighter;
+      transition: background-color 0.3s ease-in-out; }
+      .about p a:hover {
+        background-color: #A57B48; }
+
+.navbar {
+  display: none;
+  z-index: -2; }
+
+#book {
+  width: 100vw;
+  height: auto;
+  padding: 4vh 6vw;
+  background-color: #323542; }
+  #book .presentation {
+    padding: 2% 0 2% 2%;
+    font-family: "Bebas Neue";
+    color: #A57B48;
+    font-size: 40px;
+    line-height: 1.2; }
+    #book .presentation .legend {
+      color: #FFFEFC;
+      font-family: "Darwin";
+      font-size: 15px;
+      padding: 0 20% 0 0; }
+  #book .livro img {
+    margin-left: -10%; }
+  #book .sinopse {
+    padding: 4% 0 2% 2%;
+    font-family: "DarwinAlt";
+    color: #FFFEFC;
+    line-height: 1.2; }
+    #book .sinopse .main-link {
+      text-decoration: none;
+      border: 1px solid #A57B48;
+      border-radius: 20px;
+      padding: 8px 15px;
+      margin-right: 1%;
+      color: #FFFEFC;
+      font-family: "Darwin";
+      font-size: 15px;
+      font-weight: lighter;
+      margin: 2% 0;
+      transition: background-color 0.3s ease-in-out; }
+      #book .sinopse .main-link:hover {
+        background-color: #A57B48; }
+
+#about {
+  width: 100vw;
+  height: auto;
+  padding: 2% 2% 0;
+  background-color: #A57B48; }
+  #about .text {
+    padding: 8% 2% 0 10%; }
+    #about .text h1 {
+      font-family: "Bebas Neue";
+      font-size: 60px;
+      color: #323542; }
+    #about .text p {
+      line-height: 1.2;
+      color: #FFFEFC;
+      font-family: "DarwinAlt"; }
+    #about .text .main-link {
+      text-decoration: none;
+      border: 1px solid #323542;
+      border-radius: 20px;
+      padding: 8px 15px;
+      color: #FFFEFC;
+      font-family: "Darwin";
+      font-size: 15px;
+      font-weight: lighter;
+      margin: 2% 0;
+      transition: background-color 0.3s ease-in-out; }
+      #about .text .main-link:hover {
+        background-color: #323542; }
+  #about .profile-box .profile {
+    width: 50vw;
+    position: relative;
+    right: 10%; }
+
+#contact {
+  padding: 10% 10%;
+  width: 100vw;
+  height: auto;
+  background-image: url("../img/FotoBG2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #contact h1 {
+    font-family: "Bebas Neue";
+    color: #A57B48;
+    font-size: 60px; }
+  #contact p {
+    color: #FFFEFC;
+    font-family: "DarwinAlt";
+    font-size: 20px; }
+  #contact .link-site {
+    font-size: 12px; }
+    #contact .link-site i {
+      margin-right: 1%;
+      color: #A57B48; }
+    #contact .link-site a {
+      text-decoration: none;
+      color: #FFFEFC;
+      transition: color 0.3s ease-in-out; }
+      #contact .link-site a:hover {
+        color: #A57B48;
+        border-bottom: 1px solid #A57B48; }
+  #contact .sociais ul {
+    list-style: none;
+    position: relative;
+    left: -8%; }
+    #contact .sociais ul li {
+      float: left;
+      list-style: none;
+      color: #FFFEFC;
+      margin-right: 10px; }
+      #contact .sociais ul li .icon {
+        text-decoration: none; }
+      #contact .sociais ul li .yb {
+        color: red; }
+      #contact .sociais ul li .fb {
+        color: #3e5b98; }
+      #contact .sociais ul li .ig {
+        color: #EC9313; }
+  #contact form {
+    width: 100%; }
+    #contact form input {
+      width: 100%;
+      margin: 0.5% 0;
+      padding: 2%;
+      text-align: center;
+      background-color: transparent;
+      border: 1px solid #FFFEFC;
+      color: #FFFEFC;
+      font-size: 12px;
+      font-family: "Nexa";
+      transition: border-color 0.3s ease-in-out; }
+      #contact form input::placeholder {
+        text-align: center;
+        color: #FFFEFC;
+        font-family: "Nexa"; }
+      #contact form input:focus, #contact form input:active {
+        border-color: #A57B48;
+        outline-width: 0; }
+    #contact form input[type=submit] {
+      border-color: #A57B48;
+      transition: background-color 0.2s ease-in-out; }
+      #contact form input[type=submit]:hover {
+        background-color: #A57B48; }
+
+footer {
+  width: 100vw;
+  height: 120px;
+  padding: 2% 3% 1%;
+  background-color: #A57B48;
+  z-index: -1; }
+  footer .logo-footer {
+    position: relative;
+    float: right;
+    z-index: 10; }
+  footer .links {
+    z-index: 11; }
+    footer .links .link-site {
+      font-size: 15px;
+      z-index: 1; }
+      footer .links .link-site i {
+        margin-right: 1%;
+        color: #323542; }
+      footer .links .link-site a {
+        font-family: "DarwinAlt";
+        text-decoration: none;
+        color: #323542;
+        transition: color 0.3s ease-in-out; }
+        footer .links .link-site a:hover {
+          color: #FFFEFC;
+          border-bottom: 1px solid #FFFEFC; }
+    footer .links .sociais {
+      z-index: 1; }
+      footer .links .sociais ul {
+        list-style: none;
+        position: relative;
+        left: -8%; }
+        footer .links .sociais ul li {
+          float: left;
+          list-style: none;
+          color: #FFFEFC;
+          margin-right: 10px; }
+          footer .links .sociais ul li .icon {
+            text-decoration: none; }
+          footer .links .sociais ul li .yb {
+            color: red; }
+          footer .links .sociais ul li .fb {
+            color: #3e5b98; }
+          footer .links .sociais ul li .ig {
+            color: #EC9313; }
+
+.img-footer {
+  width: 100vw;
+  z-index: 2;
+  position: relative;
+  top: -220%; }
+  .img-footer img {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    height: 200px;
+    left: -2%; }
+
+body {
+  overflow-x: hidden; }
+
+::-webkit-scrollbar-track {
+  background-color: #F4F4F4; }
+
+::-webkit-scrollbar {
+  width: 3px;
+  background: #F4F4F4;
+  transition: width 0.3s ease-in-out; }
+  ::-webkit-scrollbar:hover {
+    width: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background: #F1B469; }
+
+/*# sourceMappingURL=main.css.map */

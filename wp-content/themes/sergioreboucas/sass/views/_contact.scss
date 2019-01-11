@@ -1,0 +1,93 @@
+#contact {
+    padding: 10% 10%;
+    width: 100vw;
+    height: auto;
+    background-image: url("../img/FotoBG2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1 {
+        font-family: $bebas;
+        color: $gold;
+        font-size: 60px;
+    }
+    p {
+        color: $glacial;
+        font-family: $alt;
+        font-size: 20px;
+    }
+    .link-site {
+        font-size: 12px;
+        i {
+            margin-right: 1%;
+            color: $gold;
+        }
+        a {
+            text-decoration: none;
+            color: $glacial;
+            transition: color 0.3s ease-in-out;
+            &:hover {
+                color: $gold;
+                border-bottom: 1px solid $gold;
+            }
+        }
+    }
+
+    .sociais {
+        ul {
+            list-style: none;
+            position: relative;
+            left: -8%;
+            li {
+                float: left;
+                list-style: none;
+                color: $glacial;
+                margin-right: 10px;
+                .icon {
+                    text-decoration: none;
+                }
+                .yb {
+                    color: red;
+                }
+                .fb {
+                    color: #3e5b98;
+                }
+                .ig {
+                    color: #EC9313;
+                }
+            }
+        }
+    }
+
+    form {
+        width: 100%;
+        input {
+            width: 100%;
+            margin: 0.5% 0;
+            padding: 2%;
+            text-align: center;
+            background-color: transparent;
+            border: 1px solid $glacial;
+            color: $glacial;
+            font-size: 12px;
+            font-family: $nexa;
+            transition: border-color 0.3s ease-in-out;
+            &::placeholder {
+                text-align: center;
+                color: $glacial;
+                font-family: $nexa;
+            }
+            &:focus, &:active {
+                border-color: $gold;
+                outline-width: 0;
+            }
+        }
+        input[type=submit] {
+            border-color: $gold;
+            transition: background-color 0.2s ease-in-out;
+            &:hover {
+                background-color: $gold;
+            }
+        }
+    }
+}
